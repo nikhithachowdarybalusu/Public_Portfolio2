@@ -25,6 +25,6 @@ jobs:
         run: npm run build --configuration production --base-href /Public_Portfolio2/
 
       - name: Deploy to GitHub Pages
-        run: npx angular-cli-ghpages --dir=dist/Public_Portfolio2
+        run: npx angular-cli-ghpages --dir=dist/portfolio-trial
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
